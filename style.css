@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: GilroySemiBold;
+    src: url(fonts/Gilroy-SemiBold.ttf);
+}
+
+body {
+    font-family: Gilroy;
+    max-width: 1170px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header {
+    margin-top:40px;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Gilroy;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.menu {
+    margin-left: 628px;
+}
+
+.menu-item {
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: Futura New;
+    padding: 5px 5px 5px 5px;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid black;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    font-family: Gilroy;
+    font-weight: Light;
+    font-size: 18px;
+    padding: 15px 30px;
+    width: 198px;
+    height: 46px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: white;
+    border: solid 2px black;
+    color: #000000;
+}
+
+h1 {
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block1 {
+    width: 1200px;
+    height: 400px;
+    background-color: #63606C;
+    border-radius: 15px;
+}
+
+.block2 {
+    width: 700px;
+    height: 400px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.block3 {
+    width: 450px;
+    height: 400px;
+    background-color: #168d37;
+    border-radius: 15px;
+}
+
+.block4 {
+    width: 450px;
+    height: 400px;
+    background-color: #EA5243;
+    border-radius: 15px;
+}
+
+.block5 {
+    width: 700px;
+    height: 400px;
+    background-color: #201d1d;
+    border-radius: 15px;
+}
+
+.block6 {
+    width: 1200px;
+    height: 400px;
+    background-color: #44ACE7;
+    border-radius: 15px;
+}
+
+.ourservices {
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    width: 110%;
+    max-width: 400px;
+    font-family: GilroySemiBold;
+}
+p {
+    font-family: GilroyLight;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+}
+
+.zayavka {
+    margin-top: 160px;
+    width: 1200px;
+    height: 450px;
+    background-color: #333037;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.forma {
+    color: white;
+    font-size: 64px;
+    font-family: GilroySemiBold;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.forma-text {
+    color: white;
+    font-size: 24px;
+    font-family: GilroyLight;
+    padding-top: 40px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.button1 {
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Gilroy;
+    font-weight: Light;
+    font-size: 18px;
+    width: 240px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #333037;
+    border: solid 2px rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.input {
+    margin-right: 20px;
+    text-align: left;
+    font-family: GilroyLight;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0);
+    outline: 0;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.table {
+    width: 1200px;
+    font-size: 20px;
+    font-family: GilroyLight;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+}
+
+td {
+    padding: 10px 0;
+}
+
+table tr th {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+}
+
+
+table a:hover {
+    color: rgb(255, 0, 0);
+}
